@@ -1,0 +1,13 @@
+spec_version: v1.31
+identifier: ROLoadingImages
+name: ROLoadingImages
+abstract: Loading screen image replacer for RSS/RO/RP-1
+license: CC-BY-NC-SA-4.0
+author: KSP-RO Group
+$kref: '#/ckan/github/KSP-RO/ROLoadingImages'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+resources:
+  repository: https://github.com/KSP-RO/ROLoadingImages
+recommends:
+  - name: RP-1-ExpressInstall
