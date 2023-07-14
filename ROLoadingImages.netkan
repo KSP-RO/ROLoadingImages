@@ -9,5 +9,3 @@ $vref: '#/ckan/ksp-avc'
 x_netkan_force_v: true
 resources:
   repository: https://github.com/KSP-RO/ROLoadingImages
-recommends:
-  - name: RP-1-ExpressInstall
