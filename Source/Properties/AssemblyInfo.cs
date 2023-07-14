@@ -35,10 +35,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.0.0.0")]
 #if CIBUILD
 [assembly: AssemblyFileVersion("@MAJOR@.@MINOR@.@PATCH@.@BUILD@")]
-[assembly: AssemblyInformationalVersion("@ASSEMBLYINFORMATIONALVERSION@")]
-[assembly: KSPAssembly("RP-0", @MAJOR@, @MINOR@)]
+[assembly: KSPAssembly("ROLoadingImages", @MAJOR@, @MINOR@)]
 #else
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: AssemblyInformationalVersion("1.0.0.0")]
 [assembly: KSPAssembly("ROLoadingImages", 1, 0)]
 #endif
